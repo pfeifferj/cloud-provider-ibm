@@ -29,8 +29,8 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"cloud.ibm.com/cloud-provider-ibm/pkg/klog"
-	"cloud.ibm.com/cloud-provider-ibm/pkg/vpcctl"
+	"github.com/pfeifferj/cloud-provider-ibm/pkg/klog"
+	"github.com/pfeifferj/cloud-provider-ibm/pkg/vpcctl"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/tools/record"
 )

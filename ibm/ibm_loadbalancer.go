@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"cloud.ibm.com/cloud-provider-ibm/pkg/classic"
+	"github.com/pfeifferj/cloud-provider-ibm/pkg/classic"
 	"k8s.io/klog/v2"
 
 	v1 "k8s.io/api/core/v1"

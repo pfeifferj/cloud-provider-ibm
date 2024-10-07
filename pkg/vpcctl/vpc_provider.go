@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"cloud.ibm.com/cloud-provider-ibm/pkg/klog"
+	"github.com/pfeifferj/cloud-provider-ibm/pkg/klog"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/kubernetes"

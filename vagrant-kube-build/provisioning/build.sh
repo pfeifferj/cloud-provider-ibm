@@ -61,7 +61,7 @@ BUILD_PWD=$PWD
 echo "Build directory is $BUILD_PWD."
 
 export GOPATH="${BUILD_PWD}/go"
-export GO_CLOUD_PROVIDER_IBM_MODULE="cloud.ibm.com/cloud-provider-ibm"
+export GO_CLOUD_PROVIDER_IBM_MODULE="github.com/pfeifferj/cloud-provider-ibm"
 export GO_CLOUD_PROVIDER_IBM_DIR="${GOPATH}/src/${GO_CLOUD_PROVIDER_IBM_MODULE}"
 GO_CLOUD_PROVIDER_IBM_DIR_BASENAME=$(basename "${GO_CLOUD_PROVIDER_IBM_DIR}" || exit_build)
 export GO_CLOUD_PROVIDER_IBM_DIR_BASENAME

@@ -27,8 +27,8 @@ import (
 	gcfg "gopkg.in/gcfg.v1"
 	"k8s.io/klog/v2"
 
-	"cloud.ibm.com/cloud-provider-ibm/pkg/classic"
-	"cloud.ibm.com/cloud-provider-ibm/pkg/vpcctl"
+	"github.com/pfeifferj/cloud-provider-ibm/pkg/classic"
+	"github.com/pfeifferj/cloud-provider-ibm/pkg/vpcctl"
 
 	"k8s.io/client-go/informers"
 	clientset "k8s.io/client-go/kubernetes"

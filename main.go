@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"os"
 
-	"cloud.ibm.com/cloud-provider-ibm/ibm"
+	"github.com/pfeifferj/cloud-provider-ibm/ibm"
 	"github.com/spf13/cobra"
 	"k8s.io/apimachinery/pkg/util/wait"
 	cloudprovider "k8s.io/cloud-provider"

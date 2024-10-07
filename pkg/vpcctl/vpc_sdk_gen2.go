@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"cloud.ibm.com/cloud-provider-ibm/pkg/klog"
+	"github.com/pfeifferj/cloud-provider-ibm/pkg/klog"
 	"github.com/IBM/go-sdk-core/v5/core"
 	"github.com/IBM/platform-services-go-sdk/resourcemanagerv2"
 	sdk "github.com/IBM/vpc-go-sdk/vpcv1"

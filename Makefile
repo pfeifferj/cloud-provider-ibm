@@ -148,7 +148,7 @@ coverage:
 
 .PHONY: commands
 commands:
-	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ibm-cloud-controller-manager -ldflags '-w -X cloud.ibm.com/cloud-provider-ibm/ibm.Version=${BUILD_TAG}' .
+	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ibm-cloud-controller-manager -ldflags '-w -X github.com/pfeifferj/cloud-provider-ibm/ibm.Version=${BUILD_TAG}' .
 
 .PHONY: fvttest
 fvttest:
