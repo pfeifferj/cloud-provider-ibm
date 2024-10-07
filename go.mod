@@ -1,4 +1,4 @@
-module github.com/IBM-Cloud/cloud-provider-ibm
+module github.com/pfeifferj/cloud-provider-ibm
 
 go 1.22.6
 
